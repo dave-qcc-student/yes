@@ -1,0 +1,27 @@
+body {
+    color: bisque;
+    background: black;
+}
+
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: bisque(255, 251, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.banner-overlay {
+    background: rgba(100, 100, 100, 0.267);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
